@@ -158,4 +158,8 @@ h3 a:hover {
   .wrapper {
     padding: 0;
   }
+
+  .main-pic {
+    width: 75%;
+  }
 }
