@@ -150,4 +150,12 @@ h3 a:hover {
   h1 {
     font-size: 25px;
   }
+
+  .item {
+    width: 30%;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
 }
