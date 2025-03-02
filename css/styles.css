@@ -134,9 +134,14 @@ section {
 }
 
 h1 {
-  margin-left: 20px;
-  margin-top: 70px;
+  margin-left: 70px;
+  margin-top: 10px;
   margin-bottom: 50px;
+}
+
+.polariod-pic {
+  display: block;
+  justify-self: end;
 }
 
 article {
