@@ -141,12 +141,20 @@ h1 {
 
 .polariod-pic {
   display: block;
-  justify-self: end;
+  justify-self: right;
   max-width: 800px;
 }
 
 .packages {
   margin-bottom: 50px;
+}
+
+.contact {
+  font-weight: 400;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
 
 article {
@@ -260,6 +268,10 @@ h3 a:hover {
   }
 
   article {
+    font-size: 11px;
+  }
+
+  .contact {
     font-size: 11px;
   }
 }
