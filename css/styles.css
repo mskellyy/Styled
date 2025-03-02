@@ -227,6 +227,13 @@ h3 a:hover {
   color: darkgrey;
 }
 
+/* ipad */
+@media (max-width: 900px) {
+  article {
+    font-size: 12px;
+  }
+}
+
 /* iphone */
 @media (max-width: 600px) {
   h3 {
