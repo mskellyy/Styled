@@ -1,3 +1,8 @@
+:root {
+  --bold: "Lato", serif;
+  --mono: "IBM Plex Mono", serif;
+}
+
 /*  polariods   */
 .wrapper {
   width: 100%;
@@ -98,6 +103,59 @@
 
 /*    */
 
+li {
+  display: inline;
+  font-weight: 400;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-size: 15px;
+  color: black;
+}
+
+.about-nav {
+  float: right;
+  margin-right: 35px;
+  margin-top: 10px;
+  color: black;
+}
+
+.home-nav {
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: black;
+}
+
+section {
+  font-family: var(--bold);
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-size: 40x;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+article {
+  font-weight: 400;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.about-me article {
+  font-weight: 400;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  padding-right: 70px;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -111,7 +169,7 @@
   margin-bottom: 15px;
 }
 
-h1 {
+.coming-soon h1 {
   font-family: Lato;
   font-style: normal;
   font-weight: 800;
@@ -121,7 +179,7 @@ h1 {
 
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 
