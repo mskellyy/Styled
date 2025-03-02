@@ -139,6 +139,10 @@ h1 {
   margin-bottom: 100px;
 }
 
+a section:hover {
+  color: darkgrey;
+}
+
 .polariod-pic {
   display: block;
   justify-self: right;
