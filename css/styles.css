@@ -135,13 +135,18 @@ section {
 
 h1 {
   margin-left: 70px;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .polariod-pic {
   display: block;
   justify-self: end;
+  max-width: 800px;
+}
+
+.packages {
+  margin-bottom: 50px;
 }
 
 article {
@@ -220,7 +225,7 @@ h3 a:hover {
     font-size: 10px;
   }
 
-  h1 {
+  .coming-soon h1 {
     font-size: 25px;
   }
 
@@ -238,5 +243,23 @@ h3 a:hover {
 
   .polaroid {
     padding: 0.5rem;
+  }
+
+  h1,
+  article {
+    margin-left: 15px;
+  }
+
+  .home-nav {
+    margin-left: 5px;
+    justify-self: start;
+  }
+
+  .about-nav {
+    margin-right: 15px;
+  }
+
+  article {
+    font-size: 11px;
   }
 }
