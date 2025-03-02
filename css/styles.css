@@ -135,8 +135,8 @@ section {
 
 h1 {
   margin-left: 20px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 article {
@@ -154,6 +154,16 @@ article {
   font-family: IBM Plex Mono;
   font-size: 14px;
   padding-right: 70px;
+}
+
+.about-pic {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
 }
 
 .logo {
