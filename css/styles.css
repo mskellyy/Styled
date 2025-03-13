@@ -192,8 +192,8 @@ article {
 .logo {
   display: block;
   margin: 0 auto;
+  margin-bottom: 40px;
   margin-top: 40px;
-  margin-bottom: 15px;
 }
 
 .main-pic {
@@ -208,11 +208,12 @@ article {
   font-weight: 800;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 footer {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 
@@ -284,6 +285,10 @@ h3 a:hover {
   }
 
   .contact {
+    font-size: 11px;
+  }
+
+  li {
     font-size: 11px;
   }
 }
