@@ -255,9 +255,18 @@ h3 a:hover {
 }
 
 /* ipad */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   article {
     font-size: 12px;
+  }
+
+  .about-me article {
+    text-align: center;
+    justify-items: center;
+    font-size: 14px;
+    padding-right: 0;
+    margin-left: 0;
+    padding: 80px;
   }
 }
 
