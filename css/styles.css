@@ -126,11 +126,12 @@ li {
   color: black;
 }
 
-section {
+h1 section {
   font-family: var(--bold);
   font-weight: 900;
   letter-spacing: 4px;
   font-size: 40x;
+  width: 5000px;
 }
 
 h1 {
@@ -169,6 +170,21 @@ article {
   margin-left: 70px;
   margin-top: 50px;
   text-transform: uppercase;
+}
+
+.extras {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.extras article {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-size: 14px;
 }
 
 .about-me article {
@@ -266,9 +282,30 @@ h3 a:hover {
     padding: 0.5rem;
   }
 
+  .polariod-pic {
+    width: 150%;
+    display: block;
+    justify-self: center;
+  }
+
   h1,
   article {
     margin-left: 15px;
+  }
+
+  h1 section {
+    font-size: 20px;
+  }
+
+  .extras {
+    justify-items: center;
+  }
+
+  .extras article {
+    font-size: 11px;
+    width: 120px;
+    gap: 5px;
+    margin: 0;
   }
 
   .home-nav {
