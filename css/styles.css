@@ -180,6 +180,7 @@ article {
 .extras {
   display: grid;
 
+  padding: 60px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -234,7 +235,7 @@ article {
 
 footer {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
