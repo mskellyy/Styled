@@ -131,7 +131,6 @@ h1 section {
   font-weight: 900;
   letter-spacing: 4px;
   font-size: 40x;
-  width: 5000px;
 }
 
 h1 {
@@ -199,7 +198,10 @@ article {
   font-style: normal;
   font-family: IBM Plex Mono;
   font-size: 14px;
-  padding-right: 70px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: 100px;
 }
 
 .about-pic {
@@ -210,6 +212,14 @@ article {
   background: #fff;
   padding: 1rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.about-shoot-img {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  width: 25%;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -266,9 +276,6 @@ h3 a:hover {
     text-align: center;
     justify-items: center;
     font-size: 14px;
-    padding-right: 0;
-    margin-left: 0;
-    padding: 80px;
   }
 
   .polariod-pic {
@@ -303,7 +310,6 @@ h3 a:hover {
   }
 
   .polariod-pic {
-    width: 150%;
     display: block;
     justify-self: center;
   }
@@ -313,6 +319,10 @@ h3 a:hover {
     margin-left: 15px;
   }
 
+  .packages article {
+    max-width: 330px;
+  }
+
   .about-me article {
     text-align: center;
     justify-items: center;
@@ -320,10 +330,16 @@ h3 a:hover {
     padding-right: 0;
     margin-left: 0;
     padding: 40px;
+    margin-top: 30px;
   }
 
   .about-pic {
     width: 70%;
+  }
+
+  .about-shoot-img {
+    width: 60%;
+    margin-bottom: 30px;
   }
 
   h1 section {
