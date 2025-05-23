@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://styledbytatjana.com/sitemap.xml
