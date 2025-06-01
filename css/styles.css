@@ -404,4 +404,8 @@ h3 a:hover {
   li {
     font-size: 11px;
   }
+
+  h6 {
+    font-size: 8px;
+  }
 }
