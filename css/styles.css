@@ -150,6 +150,11 @@ a section:hover {
   max-width: 500px;
 }
 
+.bundle {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .packages {
   margin-bottom: 50px;
 }
