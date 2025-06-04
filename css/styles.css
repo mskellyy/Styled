@@ -318,6 +318,7 @@ form button {
 select {
   font-family: var(--mono);
   text-align: center;
+  padding: 5px;
 }
 
 .contact-form {
