@@ -297,8 +297,8 @@ h3 a:hover {
 
 form {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 label {
@@ -317,6 +317,7 @@ form button {
 
 select {
   font-family: var(--mono);
+  text-align: center;
 }
 
 .contact-form {
@@ -324,6 +325,7 @@ select {
   font-weight: 900;
   text-align: center;
   font-size: 40px;
+  margin-top: 30px;
 }
 
 /* ipad */
