@@ -296,9 +296,10 @@ h3 a:hover {
 /* form */
 
 form {
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 60px;
 }
 
 label {
@@ -328,6 +329,16 @@ select {
   text-align: center;
   font-size: 40px;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-section {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 /* ipad */
@@ -448,5 +459,26 @@ select {
 
   select {
     width: 300px;
+  }
+
+  .form-section {
+    width: 350px;
+  }
+
+  form {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  label {
+    font-size: 13px;
+  }
+
+  select {
+    font-size: 13px;
+  }
+
+  input {
+    font-size: 13px;
   }
 }
