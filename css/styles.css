@@ -159,6 +159,23 @@ a section:hover {
   margin-bottom: 50px;
 }
 
+.get-styled-section {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--mono);
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.get-styled-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.get-styled-section a:hover {
+  color: lightgrey;
+}
+
 .contact {
   font-weight: 400;
   font-style: normal;
@@ -360,6 +377,9 @@ select {
 
 /* iphone */
 @media (max-width: 600px) {
+  .tierd-services {
+    font-size: 30px;
+  }
   h3 {
     font-size: 10px;
   }
@@ -468,6 +488,10 @@ select {
   form {
     text-align: center;
     margin-left: 0;
+  }
+
+  .contact-form {
+    font-size: 30px;
   }
 
   label {
