@@ -145,8 +145,7 @@ a section:hover {
 
 .polariod-pic {
   display: block;
-  justify-self: right;
-  margin-right: 300px;
+  margin: 0 auto;
   max-width: 500px;
 }
 
