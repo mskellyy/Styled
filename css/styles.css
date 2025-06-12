@@ -166,12 +166,28 @@ a section:hover {
   margin-left: 70px;
 }
 
+.get-styled-section-about {
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--mono);
+  margin-top: 20px;
+}
+
 .get-styled-section a {
   text-decoration: none;
   color: black;
 }
 
+.get-styled-section-about a {
+  text-decoration: none;
+  color: black;
+}
+
 .get-styled-section a:hover {
+  color: lightgrey;
+}
+
+.get-styled-section-about a:hover {
   color: lightgrey;
 }
 
